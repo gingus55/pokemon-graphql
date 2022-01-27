@@ -4,7 +4,8 @@
   "description": "Pokemon Api Fun",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/gingus55/pokemon-graphql#readme",
   "dependencies": {
     "apollo-server": "^3.6.2",
+    "axios": "^0.25.0",
     "graphql": "^16.3.0"
   },
   "devDependencies": {
