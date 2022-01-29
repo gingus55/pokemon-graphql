@@ -7,6 +7,7 @@ const typeDefs = gql`
     normalSprite: String
     shinySprite: String
     types: [Type]
+    moves: [Move]
     weight: Int
     height: Int
   }
@@ -14,6 +15,11 @@ const typeDefs = gql`
   type Type {
     name: String
     typeUrl: String
+  }
+
+  type Move {
+    name: String
+    moveUrl: String
   }
 
   type Query {

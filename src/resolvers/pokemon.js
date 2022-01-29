@@ -10,6 +10,7 @@ const pokemon = async (parent, args, context, info) => {
     normalSprite: data.sprites.front_default,
     shinySprite: data.sprites.front_shiny,
     types: data.types,
+    moves: data.moves,
     weight: data.weight,
     height: data.height,
   };

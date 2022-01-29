@@ -1,5 +1,6 @@
 const pokemon = require("./pokemon");
 const types = require("./types");
+const moves = require("./moves");
 
 const resolvers = {
   Query: {
@@ -7,6 +8,7 @@ const resolvers = {
   },
   Pokemon: {
     types,
+    moves,
   },
 };
 
